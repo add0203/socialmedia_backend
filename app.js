@@ -3,7 +3,7 @@ const userRoutes = require("./routes/userRoute");
 const chatRoutes = require("./routes/chatRoute");
 const postRoutes = require("./routes/postRouter");
 const bodyparser = require("body-parser");
-const { protect } = require("../backend/helper/jwtToken");
+const { protect } = require("./helper/jwtToken");
 
 require("dotenv").config();
 require("express-async-errors");
